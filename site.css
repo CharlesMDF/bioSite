@@ -1,0 +1,105 @@
+/*
+Name: Charles Fisher
+Date: 12 February 2022
+Assignment name: bioSite Project
+Purpose: Demonstrate a basic understanding of HTML with CSS elements through the creation of a complete website
+Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley And Sons.
+‌         W3Schools. (2019). HTML Tutorial. W3schools.com. https://www.w3schools.com/html/default.asp
+         W3Schools. (2019). CSS Tutorial.  W3schools.com. https://www.w3schools.com/css/
+*/
+/*whole site style section*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Merriweather', serif, Arial;
+}
+
+/*header style section*/
+header{
+    background-color: #DE3C4B;
+    color: #C0BABC;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    padding: 5px;
+}
+
+/*navigation bar style section*/
+nav{
+    overflow: hidden;
+    background-color: #240115;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+nav a{
+    display: inline-block;
+    color: #C0BABC;
+    padding: 15px 15px;
+    margin: 0 5%;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #C0BABC;
+    color: #4F3674;
+}
+
+/*Image style section*/
+figure{
+    margin: 5%;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 15px;
+    color: #47525E;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/*main text style section*/
+#text{
+    color: #47525E;
+    margin: 5%;
+}
+
+#text h3{
+    font-weight: 400;
+    font-size: 25px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#text p{
+    font-weight: 300;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-indent: 30px;
+}
+
+/*Footer style section*/
+footer{
+    background-color: #240115;
+}
+
+footer p{
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: #C0BABC;
+}
+
+footer a{
+    display: inline-block;
+    color: #C0BABC;
+    margin: 20px 0;
+}
+
+footer a:hover{
+    background-color: #C0BABC;
+    color: #4F3674;
+}
+
