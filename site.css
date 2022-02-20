@@ -1,6 +1,6 @@
 /*
 Name: Charles Fisher
-Date: 12 February 2022
+Date: 19 February 2022
 Assignment name: bioSite Project
 Purpose: Demonstrate a basic understanding of HTML with CSS elements through the creation of a complete website
 Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley And Sons.
@@ -13,6 +13,14 @@ Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley 
     padding: 0;
 }
 
+#container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5%;
+    justify-content: center;
+}
+
 body{
     font-family: 'Merriweather', serif, Arial;
 }
@@ -22,9 +30,9 @@ header{
     background-color: #DE3C4B;
     color: #C0BABC;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 /*navigation bar style section*/
@@ -33,14 +41,14 @@ nav{
     background-color: #240115;
     text-align: center;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 nav a{
     display: inline-block;
     color: #C0BABC;
-    padding: 15px 15px;
-    margin: 0 5%;
+    padding: 10px;
+    margin: 0 75px;
     text-decoration: none;
 }
 
@@ -49,31 +57,37 @@ nav a:hover{
     color: #4F3674;
 }
 
+/*Formatting for main content boxes*/
+.content{
+    border: 1px none;
+    margin: 15px;
+    width: 600px;
+    margin: 5% 1%;
+}
+
 /*Image style section*/
+
 figure{
-    margin: 5%;
-    display: inline-block;
     font-weight: 300;
     font-size: 15px;
-    color: #47525E;
     padding: 10px 20px;
     text-align: center;
 }
 
 /*main text style section*/
-#text{
+#content{
     color: #47525E;
-    margin: 5%;
 }
 
-#text h3{
+.content h3{
     font-weight: 400;
     font-size: 25px;
     padding: 10px 20px;
     text-align: center;
 }
 
-#text p{
+.content p{
+    text-align: left;
     font-weight: 300;
     font-size: 15px;
     padding: 10px 20px;
@@ -83,6 +97,10 @@ figure{
 /*Footer style section*/
 footer{
     background-color: #240115;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
 }
 
 footer p{
