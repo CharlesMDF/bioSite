@@ -17,12 +17,14 @@ Sources: Duckett, J. (2014). Html & CSS : design and build websites. John Wiley 
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 5%;
+    margin: 3% 5% 5%;
     justify-content: center;
+    
 }
 
 body{
     font-family: 'Merriweather', serif, Arial;
+    
 }
 
 /*header style section*/
@@ -48,7 +50,7 @@ nav a{
     display: inline-block;
     color: #C0BABC;
     padding: 10px;
-    margin: 0 75px;
+    margin: 0 60px;
     text-decoration: none;
 }
 
@@ -62,7 +64,8 @@ nav a:hover{
     border: 1px none;
     margin: 15px;
     width: 600px;
-    margin: 5% 1%;
+    margin: 1% 1%;
+    color: #240115;
 }
 
 /*Image style section*/
@@ -72,13 +75,14 @@ figure{
     font-size: 15px;
     padding: 10px 20px;
     text-align: center;
+    font-style: italic;
+}
+img{
+    padding: 10px;
+    background-color: #240115;
 }
 
 /*main text style section*/
-#content{
-    color: #47525E;
-}
-
 .content h3{
     font-weight: 400;
     font-size: 25px;
@@ -92,6 +96,7 @@ figure{
     font-size: 15px;
     padding: 10px 20px;
     text-indent: 30px;
+    line-height: 25px;
 }
 
 /*Footer style section*/
@@ -100,7 +105,6 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    left: 0;
 }
 
 footer p{
